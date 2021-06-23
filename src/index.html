@@ -2,15 +2,49 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>template-repo</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>functional-rpg</title>
 </head>
 
 <body>
-
-    <h1>This is connected</h1>
+  <main class="container">
+    <h1>Create a Character</h1>
+    <div class="card">
+      <form action="" id="character-create">
+        <label for="name">Name</label>
+        <input type="text" name="name" id="name" class="form-control">
+        <label for="class">Class</label>
+        <select type="text" name="class" id="class" class="form-control">
+          <option value="cleric">Cleric</option>
+          <option value="barbarian">Barbarian</option>
+          <option value="mage">Mage</option>
+          <option value="druid">Druid</option>
+        </select>
+        <label for="strength">Strength</label>
+        <input type="number" name="strength" id="strength" min="1" max="10" class="form-control" step="1">
+        <label for="endurance">Endurance</label>
+        <input type="number" name="endurance" id="endurance" min="1" max="10" class="form-control" step="1">
+        <label for="intelligence">Intelligence</label>
+        <input type="number" name="intelligence" id="intelligence" min="1" max="10" class="form-control" step="1">
+        <label for="dexterity">Dexterity</label>
+        <input type="number" name="dexterity" id="dexterity" min="1" max="10" class="form-control" step="1">
+        <label for="luck">Luck</label>
+        <input type="number" name="luck" id="luck" min="1" max="10" class="form-control" step="1">
+        <button class="btn btn-success mt-3">Create Character</button>
+      </form>
+    </div>
+    <div class="card">
+      <p id="name-output"></p>
+      <p id="class-output"></p>
+      <p id="strength-output"></p>
+      <p id="endurance-output"></p>
+      <p id="intelligence-output"></p>
+      <p id="dexterity-output"></p>
+      <p id="luck-output"></p>
+    </div>
+  </main>
 
 </body>
 

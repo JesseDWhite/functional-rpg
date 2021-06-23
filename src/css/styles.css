@@ -1,3 +1,6 @@
 body {
-    background-color: green;
+    background: linear-gradient(grey,blue);
+}
+#character-create {
+  padding: 30px;
 }
