@@ -1,6 +1,7 @@
 body {
     background: linear-gradient(grey,blue);
+    height: 100vh;
 }
-#character-create {
+#character-create, #current-stats {
   padding: 30px;
 }
